@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/15/07/bd/1507bda02f4f78aa760e2eb4a2cfb111.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center button;
+  background-repeat:no-repeat;
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #7e0cdb;
+  margin: 0 0 5px;
+  font-size: 45px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.page-logo {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+  margin: 3px;
+}
+
+input {
+  padding: 5px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+label {
+  color:#ffffff;
+  font-size: 15px;
+}
+
+#buttonAdc {
+  font-family: 'Righteous', cursive;
+  padding: 10px;
+  width: 100px;
+  background-color: #7e0cdb;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+#buttonAdc:hover {
+  background: linear-gradient(to bottom, #bd2aac 5%, #c045c7 100%);
+  background-color: #bd2aac;
+}
+
+#buttonAdc:active {
+  position: relative;
+  top: 1px;
+}
+
+#buttonRemove {
+  font-family: 'Righteous', cursive;
+  padding: 10px;
+  width: 100px;
+  background-color: #7e0cdb;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+#buttonRemove:hover {
+  background: linear-gradient(to bottom, #bd2aac 5%, #c045c7 100%);
+  background-color: #bd2aac;
+}
+
+#buttonRemove:active {
+  position: relative;
+  top: 1px;
+}
+
+.ajusteConteiner {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.conteinerAdc {
+  color: white;
+  margin: 5px;
+  background: rgb(40, 40, 40);
+  background: linear-gradient(
+    0deg,
+    rgba(83, 206, 255, 0.681) 0%,
+    rgba(83, 86, 255, 0.681) 50%,
+    rgba(149, 83, 255, 0.681) 100%
+  );
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+}
+.series-images:hover {
+  transition: 0.5s all;
+  transform: scale(1.1);
+}
+
+.series-images::blur {
+  transform: scale(5);
+}
+
+.listaSeries {
+  color: #7e0cdb;
+  display: flex;
+}
